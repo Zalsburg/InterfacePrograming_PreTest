@@ -1,9 +1,18 @@
-.movieDeets {
+#movieDeets {
     display: flex;
     flex-direction: row;
 }
 
-.movieDeets > div {
+#movieDeets > div {
     width: 30%;
     text-align: left;
+}
+
+/* #allInfo {
+    display: flex;
+    flex-direction: row;
+} */
+
+#movieImage {
+    width: 200px;
 }
