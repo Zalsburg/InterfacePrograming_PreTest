@@ -1,1 +1,28 @@
-<p>movie-info-component works!</p>
+<h2>
+    Title: {{movie.Title}}
+</h2>
+
+<div>
+    <div>
+        <app-movie-image [image]="thisMovie"></app-movie-image>
+    </div>
+    <div>
+        <div class = "movieDeets">
+            <div>
+                Rating: {{movie.Rating}} / 10
+            </div>
+            <div>
+                Runtime: {{movie.Runtime}} mins
+            </div>
+            <div>
+                Release Date: {{movie.ReleaseDate}}
+            </div>
+        </div>
+        <div>
+            <p>Overview: </p>
+            <p>
+                {{movie.ShortDescription}}
+            </p>
+        </div>
+    </div>
+</div>

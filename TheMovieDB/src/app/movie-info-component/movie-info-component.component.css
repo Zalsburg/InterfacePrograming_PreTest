@@ -1,0 +1,9 @@
+.movieDeets {
+    display: flex;
+    flex-direction: row;
+}
+
+.movieDeets > div {
+    width: 30%;
+    text-align: left;
+}
